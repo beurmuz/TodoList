@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-y: hidden;
+    /* 드래그 방지 */
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
+
+header {
+    padding: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+h1 {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60vw;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.add-input {
+    width: 50vw;
+    height: 45px;
+    border: white solid 1px;
+    background-color: transparent;
+    font-size: 1.2em;
+    padding: 5px;
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+  }
+
+.add-button {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.lists {
+    list-style: none;
+    margin: auto;
+    padding: 5px;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+}
+
+.list-content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-name {
+    font-size: 1.2em;
+    color: white;
+}
+
+.listin-button  {
+    font-size: 1.2em;
+    padding: 1px 2px;
+}
+
+.list-do {
+    outline: none;
+}
+
+.list-do:hover {
+    color:red;
+}
