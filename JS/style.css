@@ -78,7 +78,7 @@ button:hover{
     height: 60vh;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: auto;
     
 }
 
