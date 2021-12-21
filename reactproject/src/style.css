@@ -1,0 +1,51 @@
+.App{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #eee;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    max-width: 350px;
+    min-height: 80vh;
+    background-color: #fff;
+    padding: 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.imgFrame {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0px;
+    line-height: 1.4;
+}
+
+span {
+    background-color: plum;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid #dadafc;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.start-button {
+    padding: 10px 24px;
+    background-color: #dadafc;
+    border-radius: 30px;
+    border: #dadafc;
+}
